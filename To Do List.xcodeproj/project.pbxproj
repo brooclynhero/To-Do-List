@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15720E8E1F17B7F800D60DD1 /* TodoListDataDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15720E8D1F17B7F800D60DD1 /* TodoListDataDisplayManager.swift */; };
 		A4C5742A1F14A3F200FC0B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C574291F14A3F200FC0B31 /* AppDelegate.swift */; };
 		A4C574311F14A3F300FC0B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C574301F14A3F300FC0B31 /* Assets.xcassets */; };
 		A4C5743C1F14A61C00FC0B31 /* TaskRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5743B1F14A61C00FC0B31 /* TaskRowTableViewCell.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15720E8D1F17B7F800D60DD1 /* TodoListDataDisplayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListDataDisplayManager.swift; sourceTree = "<group>"; };
 		A4C574261F14A3F200FC0B31 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C574291F14A3F200FC0B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C574301F14A3F300FC0B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				A4C5743D1F14ABCD00FC0B31 /* TaskRowTableViewController.swift */,
 				A4C5743B1F14A61C00FC0B31 /* TaskRowTableViewCell.swift */,
+				15720E8D1F17B7F800D60DD1 /* TodoListDataDisplayManager.swift */,
 			);
 			name = "First Screen";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15720E8E1F17B7F800D60DD1 /* TodoListDataDisplayManager.swift in Sources */,
 				A4C5744C1F14D85000FC0B31 /* SecondViewController.swift in Sources */,
 				A4C574481F14D4D700FC0B31 /* NameTableViewCell.swift in Sources */,
 				A4C5744A1F14D4EA00FC0B31 /* DescriptionTableView.swift in Sources */,
@@ -317,6 +321,7 @@
 				A4C5743A1F14A3F300FC0B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
