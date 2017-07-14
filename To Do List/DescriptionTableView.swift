@@ -15,17 +15,4 @@ class DescriptionTableViewCell: UITableViewCell {
     func configureWith(_ name: String) {
         descriptionField.text = name
     }
-    
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-       
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        
-    }
-
 }

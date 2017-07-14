@@ -9,11 +9,7 @@
 import UIKit
 import os.log
 
-
-
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    
     
     var indexNumber: Int?
 
@@ -53,8 +49,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             switchElement.isHidden = true
             taskLabel.isHidden = true
         }
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -93,14 +87,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             cell.configureWith(descript)
 
             return cell
-        
         }
-
-        
-        
     }
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
